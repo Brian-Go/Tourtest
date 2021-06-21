@@ -1,3 +1,22 @@
+var addHotSpot = false;
+
+document.addEventListener("DOMContentLoaded",
+  function (event) {
+    
+    function sayHello (event) {
+        console.log("hello");
+        console.log(document.getElementById("item-name").value);
+        document.querySelector("#curr-name").textContent = document.querySelector("#item-name").value;
+        addHotSpot = true;
+    }
+
+    // Unobtrusive event binding
+    document.querySelector("button")
+      .addEventListener("click", sayHello);
+
+  }
+);
+
 viewer = pannellum.viewer('panorama', {   
     "default": {
         "firstScene": "living",
@@ -14,7 +33,7 @@ viewer = pannellum.viewer('panorama', {
             "pitch": -3,
             "yaw": 117,
             "type": "equirectangular",
-            "panorama": "images/living.jpeg",
+            "panorama": "images/lion0.jpeg",
             "hotSpots": [
                 {
                     "pitch": -8.71,
@@ -53,9 +72,16 @@ viewer = pannellum.viewer('panorama', {
         }
     }
 });
-viewer.on('mousedown', function(event) {
-    // coords[0] is pitch, coords[1] is yaw
-    var coords = viewer.mouseEventToCoords(event);
-    // Do something with the coordinates here...
-    console.log(coords);
-});
+
+viewer.on('mousedown', 
+    function(event) {
+        // coords[0] is pitch, coords[1] is yaw
+        var coords = viewer.mouseEventToCoords(event);
+        // Do something with the coordinates here...
+        var name = document.querySelector("#item-name").value;
+        if (addHotSpot){
+            viewer.addHotSpot({"pitch":coords[0], "yaw":coords[1], "type":"info", "text":name});
+            addHotSpot = false;
+        }
+    }
+);
