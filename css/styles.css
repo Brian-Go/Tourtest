@@ -1,0 +1,29 @@
+
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #c5abb5;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#panorama {
+    width: 60%;
+    height: 800px;
+    float: left;
+}
+
+#item-info {
+    width: 30%;
+    height: 70%;
+    float: left;
+    margin-left: 30px;
+}
+
+.pnlm-about-msg {
+visibility: hidden;
+    a {
+        visibility: hidden;
+    }
+}
+/** HEADER **/

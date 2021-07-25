@@ -1,0 +1,286 @@
+{   
+    "default": {
+        "firstScene": "P1 1",
+        "author": "ajin",
+        "sceneFadeDuration": 1000
+    },
+    "autoLoad": true,
+    "compass": false,
+
+    "scenes": {
+        "P1 1": {
+            "title": "P1 1",
+            "hfov": 110,
+            "type": "equirectangular",
+            "panorama": "images/P1 1.jpg",
+            "pitch": -5.3,
+            "yaw": -58.7,
+            "hotSpots": [
+                {
+                    "pitch": -17.4,
+                    "yaw": -37.7,
+                    "type": "scene",
+                    "sceneId": "P1 2",
+                    "targetPitch": -4.5,
+                    "targetYaw": 180
+                },
+                {
+                    "id": "bear",
+                    "pitch": -26.06,
+                    "yaw": -151.42,
+                    "type": "info",
+                    "text": "Its a Bear!",
+                    "URL": "https://en.wikipedia.org/wiki/Teddy_bear",
+                    "clickHandlerArgs": "bear"
+                },
+                {
+                    "pitch": -22.6,
+                    "yaw": -123,
+                    "type": "scene",
+                    "sceneId": "P1 9",
+                    "targetPitch":-17,
+                    "targetYaw": -177
+                }
+            ]
+        },
+
+        "P1 2": {
+            "title": "P1 2",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "images/P1 2.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -21.2,
+                    "yaw": -6,
+                    "type": "scene",
+                    "sceneId": "P1 1"
+                },
+                {
+                    "pitch": -24,
+                    "yaw": -174,
+                    "type": "scene",
+                    "sceneId": "P1 3",
+                    "targetPitch":-14.9,
+                    "targetYaw": 92
+                }
+            ]
+        },
+
+        "P1 3": {
+            "title": "P1 3",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "images/P1 3.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -28.7,
+                    "yaw": -90.4,
+                    "type": "scene",
+                    "sceneId": "P1 2",
+                    "targetPitch": 0,
+                    "targetYaw": 0
+                },
+                {
+                    "pitch": -24.4,
+                    "yaw": 124,
+                    "type": "scene",
+                    "sceneId": "P1 4",
+                    "targetPitch": 0,
+                    "targetYaw": 0
+                },
+                {
+                    "pitch": -36,
+                    "yaw": 6,
+                    "type": "scene",
+                    "sceneId": "P1 10",
+                    "targetPitch":-17.6,
+                    "targetYaw": -93.3
+                }
+            ]
+        },
+        "P1 4": {
+            "title": "P1 4",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "images/P1 4.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -26.1,
+                    "yaw": 179.4,
+                    "type": "scene",
+                    "sceneId": "P1 3",
+                    "targetPitch":-6.3,
+                    "targetYaw": 270
+                },
+                {
+                    "pitch": -28.9,
+                    "yaw": -78.4,
+                    "type": "scene",
+                    "sceneId": "P1 5",
+                    "targetPitch":-4.2,
+                    "targetYaw": 40.9
+                }
+            ]
+        },
+        "P1 5": {
+            "title": "P1 5",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "images/P1 5.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -36.6,
+                    "yaw": -115.5,
+                    "type": "scene",
+                    "sceneId": "P1 4",
+                    "targetPitch": -3.1,
+                    "targetYaw": 91.1
+                },
+                {
+                    "pitch": -26.5,
+                    "yaw": 62.6,
+                    "type": "scene",
+                    "sceneId": "P1 6",
+                    "targetPitch":-10.4,
+                    "targetYaw": -45.4
+                }
+            ]
+        },
+        "P1 6": {
+            "title": "P1 6",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "images/P1 6.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -34.0,
+                    "yaw": 109.8,
+                    "type": "scene",
+                    "sceneId": "P1 5",
+                    "targetPitch":-6.9,
+                    "targetYaw": 242.7
+                },
+                {
+                    "pitch": -26,
+                    "yaw": -160,
+                    "type": "scene",
+                    "sceneId": "P1 7",
+                    "targetPitch":-2.3,
+                    "targetYaw": -160.0
+                }
+            ]
+        },
+        "P1 7": {
+            "title": "P1 7",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "images/P1 7.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -26.4,
+                    "yaw": 20,
+                    "type": "scene",
+                    "sceneId": "P1 6",
+                    "targetPitch": 1.8,
+                    "targetYaw": 26.7
+                },
+                {
+                    "pitch": -27,
+                    "yaw": -145,
+                    "type": "scene",
+                    "sceneId": "P1 8",
+                    "targetPitch":-12.6,
+                    "targetYaw": 22.7
+                },
+                {
+                    "pitch": -39,
+                    "yaw": 116.8,
+                    "type": "scene",
+                    "sceneId": "P1 10",
+                    "targetPitch":-7.9,
+                    "targetYaw": 94.1
+                }
+            ]
+        },
+        "P1 8": {
+            "title": "P1 8",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "images/P1 8.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -26,
+                    "yaw": -173,
+                    "type": "scene",
+                    "sceneId": "P1 7",
+                    "targetPitch": -0.9,
+                    "targetYaw": 47.8
+                },
+                {
+                    "pitch": -23,
+                    "yaw": 7.5,
+                    "type": "scene",
+                    "sceneId": "P1 9",
+                    "targetPitch":-1.6,
+                    "targetYaw": 71.3
+                }
+            ]
+        },
+        "P1 9": {
+            "title": "P1 9",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "images/P1 9.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -30,
+                    "yaw": -28.7,
+                    "type": "scene",
+                    "sceneId": "P1 1"
+                },
+                {
+                    "pitch": -14.5,
+                    "yaw": -123.0,
+                    "type": "scene",
+                    "sceneId": "P1 8",
+                    "targetPitch":-5.5,
+                    "targetYaw": 176
+                }
+            ]
+        },
+        "P1 10": {
+            "title": "P1 10",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "images/P1 10.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -45,
+                    "yaw": 94,
+                    "type": "scene",
+                    "sceneId": "P1 3",
+                    "targetPitch": -5.7,
+                    "targetYaw": 181.2
+                },
+                {
+                    "pitch": -32.9,
+                    "yaw": -90.7,
+                    "type": "scene",
+                    "sceneId": "P1 7",
+                    "targetPitch":-8.6,
+                    "targetYaw": -71.2
+                }
+            ]
+        }
+    }
+}

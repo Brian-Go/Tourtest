@@ -1,0 +1,15 @@
+[
+    {
+        "id": "apple",
+        "name": "apple",
+        "price": 10,
+        "image": "images/apple.jpeg"
+    },
+    {
+        "id": "wine",
+        "name": "wine",
+        "price": 10,
+        "image": "images/wine.jpeg"
+    }
+
+]
