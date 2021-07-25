@@ -10,6 +10,12 @@
         "name": "wine",
         "price": 10,
         "image": "images/wine.jpeg"
+    },
+    {
+        "id": "orange",
+        "name": "orange",
+        "price": 10,
+        "image": "images/orange.png"
     }
 
 ]
