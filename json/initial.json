@@ -6,6 +6,7 @@
     },
     "autoLoad": true,
     "compass": false,
+    "hotSpotDebug": true,
 
     "scenes": {
         "P1 1": {
@@ -25,21 +26,28 @@
                     "targetYaw": 180
                 },
                 {
-                    "id": "bear",
-                    "pitch": -26.06,
-                    "yaw": -151.42,
-                    "type": "info",
-                    "text": "Its a Bear!",
-                    "URL": "https://en.wikipedia.org/wiki/Teddy_bear",
-                    "clickHandlerArgs": "bear"
-                },
-                {
                     "pitch": -22.6,
                     "yaw": -123,
                     "type": "scene",
                     "sceneId": "P1 9",
                     "targetPitch":-17,
                     "targetYaw": -177
+                },
+                {
+                    "id": "wine",
+                    "pitch": -3.4,
+                    "yaw": -2.95,
+                    "type": "info",
+                    "text": "wine",
+                    "clickHandlerArgs": "wine"
+                },
+                {
+                    "id": "apple",
+                    "pitch": -7.7,
+                    "yaw": -81.1,
+                    "type": "info",
+                    "text": "apple",
+                    "clickHandlerArgs": "apple"
                 }
             ]
         },
