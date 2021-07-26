@@ -27,7 +27,7 @@ function getItem(event, args) {
     var itemInfo = itemMap.get(args);
     console.log(itemInfo);
     document.querySelector("#item-title").textContent = itemInfo.name;
-    document.querySelector("#item-image").src = "../items/"+itemInfo.image;
+    document.querySelector("#item-image").src = "items/"+itemInfo.image;
 }
 
 (function initializeViewer (window, callback) {
