@@ -31,7 +31,7 @@ function getItem(event, args) {
 }
 
 (function initializeViewer (window, callback) {
-    $ajaxUtils.sendGetRequest("/json/initial.json", 
+    $ajaxUtils.sendGetRequest("json/initial.json", 
         function (res) {
         config = res;
         for(scene in res.scenes){
@@ -44,7 +44,7 @@ function getItem(event, args) {
         viewer = pannellum.viewer('panorama', config);
         }
     );
-    $ajaxUtils.sendGetRequest("/items/items.json", 
+    $ajaxUtils.sendGetRequest("items/items.json", 
         function (res) {
             console.log(res);
             for(item in res){
