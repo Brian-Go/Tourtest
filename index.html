@@ -17,7 +17,7 @@
 </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Store</a>
+      <a class="navbar-brand" href="#">Storfront</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -46,12 +46,50 @@
       </div>
     </nav>
 
-    <h1>Testing</h1>
-    <div id="panorama"></div>
-    <div id="item-info">
-      <h1 id="item-title">Item Title</h1>
-      <div class="image-container">
-        <img id= "item-image" src="" alt="">
+    <h1>Storfront</h1>
+    <div id="viewer-box" class="col-md-8">
+      <div id="panorama"></div>
+    </div>
+    <div id="items-box" class="row row-cols-2 col-md-4">
+      <div class="col">
+        <div class="card">
+          <img id="item-image" src="images/placeholder.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+              <h5 id="item-title" class="card-title">Sample Item</h5>
+              <p id="item-desc" class="card-text">Item Info</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" >
+          <img src="images/placeholder.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+              <h5 id="item-title" class="card-title">Sample Item</h5>
+              <p class="card-text">Item Info</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" >
+          <img src="images/placeholder.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+              <h5 id="item-title" class="card-title">Sample Item</h5>
+              <p class="card-text">Item Info</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" >
+          <img src="images/placeholder.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+              <h5 id="item-title" class="card-title">Sample Item</h5>
+              <p class="card-text">Item Info</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
       </div>
     </div>
     <script src="js/script.js"></script>

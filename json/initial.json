@@ -6,7 +6,7 @@
     },
     "autoLoad": true,
     "compass": false,
-    "hotSpotDebug": true,
+
 
     "scenes": {
         "P1 1": {
@@ -154,8 +154,8 @@
                     "yaw": 62.6,
                     "type": "scene",
                     "sceneId": "P1 6",
-                    "targetPitch":-10.4,
-                    "targetYaw": -45.4
+                    "targetPitch":-2.7,
+                    "targetYaw": -74.1
                 }
             ]
         },
