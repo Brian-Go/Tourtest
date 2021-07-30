@@ -6,9 +6,12 @@ body {
   background-color: #dadada;
   font-family: 'Oxygen', sans-serif;
 }
+.day{
+    width: 60px;
+}
 
 #viewer-box{
-    height: 800px;
+    height: 1000px;
     float: left;
 }
 
@@ -18,8 +21,9 @@ body {
 }
 
 #items-box{
-    height: 800px;
     float:left;
+    overflow:hidden;
+    height: 1000px;
 }
 /* 
 #item-info {
@@ -41,6 +45,7 @@ body {
 .card {
     height: 360px;
     margin-left: 15px;
+    overflow-y:scroll;
 }
 
 .card-img-top{
