@@ -8,11 +8,11 @@ body {
   height: 100%;
 }
 .day{
-    width: 60px;
+    width: 40px;
 }
 
 #viewer-box{
-    height: 1000px;
+    height: 900px;
     float: left;
 }
 
@@ -47,6 +47,7 @@ body {
 
 .card {
     height:  900px;
+    width: 100%;
     overflow-y:auto;
 }
 .card-header {

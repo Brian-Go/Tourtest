@@ -1,7 +1,6 @@
 {   
     "default": {
         "firstScene": "P1 1",
-        "author": "ajin",
         "sceneFadeDuration": 1000
     },
     "autoLoad": true,
