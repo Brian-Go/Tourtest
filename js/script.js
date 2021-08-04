@@ -27,7 +27,9 @@ function getItem(event, args) {
     var itemInfo = itemMap.get(args);
     console.log(itemInfo);
     document.querySelector("#item-title").textContent = itemInfo.name;
-    document.querySelector("#item-desc").textContent = itemInfo.price;
+    document.querySelector("#item-desc").textContent = "$"+itemInfo.price;
+    document.querySelector("#item-weight").textContent = itemInfo.weight + " oz";
+    document.querySelector("#item-per-oz").textContent = "$" + (itemInfo.price/itemInfo.weight).toFixed(2)+"/oz";
     document.querySelector("#item-image").src = "items/"+itemInfo.image;
 }
 

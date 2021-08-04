@@ -5,6 +5,7 @@ body {
   color: rgb(0, 0, 0);
   background-color: #dadada;
   font-family: 'Oxygen', sans-serif;
+  height: 100%;
 }
 .day{
     width: 60px;
@@ -19,11 +20,13 @@ body {
     height: 100%;
     
 }
+.shopping-cart{
+    background-color: white;
+}
 
 #items-box{
-    float:left;
-    overflow:hidden;
-    height: 1000px;
+    /* float:left; */
+    overflow:auto;
 }
 /* 
 #item-info {
@@ -32,8 +35,37 @@ body {
     float: left;
     background-color: #ffffff;
 } */
+#dropdown-quantity{
+    margin-bottom: 30px;
+}
+#item-per-oz{
+    padding-left: 60px;
+}
+ #item-eff{
+     color: gray;
+ }
 
-.pnlm-about-msg {
+.card {
+    height:  900px;
+    overflow-y:auto;
+}
+.card-header {
+    text-align: center;
+}
+.card-img{
+    width: auto;
+    height: 200px;
+}
+/* .card-body{
+    float:left;
+} */
+
+ /* #item-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+ } */
+ .pnlm-about-msg {
     visibility: hidden;
 }
 
@@ -41,22 +73,3 @@ body {
     z-index:-999;
     opacity: 0;
  }
-
-.card {
-    height: 360px;
-    margin-left: 15px;
-    overflow-y:scroll;
-}
-
-.card-img-top{
-    object-fit: cover;
-    width: 100%;
-    height: 200px;
-}
-
- /* #item-image{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
- } */
-/** HEADER **/

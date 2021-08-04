@@ -1,20 +1,22 @@
 {
     "apple" :{
-        "id": "apple",
-        "name": "apple",
-        "price": 10,
-        "image": "images/apple.jpg"
+        "id": "Apple",
+        "name": "Apple",
+        "price": "10.00",
+        "image": "images/apple.jpg",
+        "weight": 4
     },
     "wine": {
-        "id": "wine",
-        "name": "wine",
-        "price": 10,
-        "image": "images/wine.jpeg"
+        "id": "Wine",
+        "name": "Wine",
+        "price": "10.00",
+        "image": "images/wine.jpeg",
+        "weight": 13
     },
     "orange":{
-        "id": "orange",
-        "name": "orange",
-        "price": 10,
+        "id": "Orange",
+        "name": "Orange",
+        "price": "10.00",
         "image": "images/orange.png"
     }
 
