@@ -2,8 +2,13 @@
 
 Requirements:
 1. login/authentification
-    1.a. location
-    1.b. specific POS
+    1.a. get location
+    1.b. get POS
+        import { Client } from 'square'
+        const client = new Client(/** some config **/)
+        const newClient = client.withConfiguration({
+            accessToken: newlyAcquiredAccessTokenValue,
+        })
     1.c. 
 2. general product CRUD
     2.a. get in-stock
