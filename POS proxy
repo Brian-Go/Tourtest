@@ -1,0 +1,27 @@
+
+
+Requirements:
+1. login/authentification
+    1.a. location
+    1.b. specific POS
+    1.c. 
+2. general product CRUD
+    2.a. get in-stock
+    2.b. get price
+    2.c. get discount
+    2.d. get size/weight
+    2.e. get price/weight
+    2.f. get flavors/styles/colors
+    2.g. get name
+    2.h. get barcode/UPC/id
+    2.i. get shippingavailable
+    2.j. get available-in-store
+    2.k. get type (physical/digital)
+    notes: some items are purchased by weight, not by quantity. need to include this somewhere
+
+3. shopping cart
+    3.a. patch in-stock/inventory on purchase
+    3.b.1. get product/objects
+    3.b.2. get note(s) from shopper
+    3.c.1. get payment details
+    3.c.2. check shopping cart availability, submit payment, place order with store
